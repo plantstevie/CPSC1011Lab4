@@ -11,6 +11,7 @@ int main () {
     if (number < 100 && number > 0) {
         // is primary
         if (number %  2 == 0) {
+            // check if east/west
             printf("I-%d is primary, going east/west.\n", number);
         } else {
             printf("I-%d is primary, going north/south.\n", number);
